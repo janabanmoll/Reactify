@@ -1,16 +1,43 @@
-# React + Vite
+# Reactify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React dashboard application built for practicing React, Redux Toolkit, API integration, authentication, and modern frontend development.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://reactify-8bfea.web.app
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User management
+- Add, edit and delete users
+- User search and filtering
+- User pagination
+- Posts management
+- Like and dislike functionality
+- Authentication and protected routes
+- Admin and user roles
+- Settings and language switching
+- Notification preferences
+- Charts and data visualization
+- API integration
+- LocalStorage based data handling
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Redux Toolkit
+- React Router
+- React i18next
+- Recharts
+- CSS Modules
+- Firebase Hosting
+- DummyJSON API
+
+## Installation
+
+Clone the repository:
+
+bash
+git clone "https://github.com/janabanmoll/Reactify"
+
