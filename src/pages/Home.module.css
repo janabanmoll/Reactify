@@ -1,0 +1,117 @@
+.home {
+  padding: 35px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.homeHeader {
+  margin-bottom: 10px;
+}
+
+.homeHeader h1 {
+  margin: 0 0 8px;
+  font-size: 34px;
+  color: #1e293b;
+}
+
+.homeHeader h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #4f46e5;
+}
+
+.homeHeader p {
+  margin: 0;
+  color: #64748b;
+}
+
+.dashboardCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.dashboardCard {
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboardCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.usersCard {
+  background: #4f46e5;
+}
+
+.chartsCard {
+  background: #0891b2;
+}
+
+.postsCard {
+  background: #7c3aed;
+}
+
+.postsChartCard {
+  background: #059669;
+}
+
+.postsUserCard {
+  background: #d97706;
+}
+
+.settingsCard {
+  background: #db2777;
+}
+
+.dashboardCard h2 {
+  margin: 0 0 10px;
+}
+
+.dashboardCard p {
+  margin: 0 0 20px;
+}
+
+.dashboardCard button {
+  padding: 9px 16px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: #222;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.dashboardCard button:hover {
+  background: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .dashboardCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .home {
+    padding: 20px;
+  }
+
+  .homeHeader h1 {
+    font-size: 28px;
+  }
+
+  .homeHeader h3 {
+    font-size: 18px;
+  }
+
+  .dashboardCards {
+    grid-template-columns: 1fr;
+  }
+}

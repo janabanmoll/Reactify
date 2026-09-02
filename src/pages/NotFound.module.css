@@ -1,0 +1,74 @@
+.notFoundPage {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: #f8fafc;
+}
+
+.notFoundCard {
+  width: 100%;
+  max-width: 500px;
+  padding: 50px 30px;
+  text-align: center;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.errorCode {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 1;
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+.notFoundCard h1 {
+  margin: 0 0 10px;
+  color: #1e293b;
+  font-size: 28px;
+}
+
+.notFoundCard p {
+  margin: 0 0 25px;
+  color: #64748b;
+  font-size: 15px;
+}
+
+.notFoundCard button {
+  padding: 11px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.notFoundCard button:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 500px) {
+  .notFoundPage {
+    padding: 20px 15px;
+  }
+
+  .notFoundCard {
+    padding: 40px 20px;
+  }
+
+  .errorCode {
+    font-size: 70px;
+  }
+
+  .notFoundCard h1 {
+    font-size: 24px;
+  }
+}
